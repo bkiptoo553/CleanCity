@@ -1,17 +1,18 @@
 ### 1. Test Objectives
 
-> Test marking a comment as in appropriate
-> ensure a new blog post can be added
-> Ensure comments can be rendered and deleted
-> ensure a new blog post can be added
+* Test marking a comment as in appropriate
+* ensure a new blog post can be added
+* Ensure comments can be rendered and deleted
+* ensure a new blog post can be added
 
 ### 2. Scope
 
-> 
-> 
->
-> * In scope: Game logic, scoring system
-> * Out of scope: Browser compatibility
+**In scope:**
+  * waste pickup scheduling
+  * Blog management
+  * user authentication
+** Out of scope:**
+  * Browser compatibility
 
 ### 3. Resources
 
@@ -30,14 +31,14 @@
 
 ### 5. Entry/Exit Criteria
 
-* **Entry**: Game is functional on Chrome
+* **Entry**: CleanCity app is functional on Chrome
 * **Exit**: All critical bugs fixed, 90% test cases passed
 
 ---
 
 ## ⚠️ Risk Analysis Task
 
-Create a `Risk_Analysis.md` file with:
+Create a `CleanCity_Risk_Analysis.md` file with:
 
 ### Risk Assessment Table
 
@@ -46,8 +47,7 @@ Create a `Risk_Analysis.md` file with:
 
 ### Risk Mitigation Strategies
 
-> *Example*: For scoring risks: Implement boundary value testing
-
+* Give mitigation strategies for every test case
 ---
 
 ## 🧪 Test Design & Execution
@@ -58,15 +58,15 @@ Design 5 test cases prioritizing high-risk areas. Use this format:
 
 ```
 **ID**: TC-01  
-**Feature**: Scoring System  
-**Test**: Verify score deduction when using hint  
+**Feature**: User authentication  
+**Test**: Verify score role access based control  
 **Steps**:  
-1. Solve puzzle without hint  
-2. Note score  
-3. Solve identical puzzle with hint  
+1. Step 1  
+2. Step 2
+3. final step 
 
-**Expected**: Hint reduces score by 2 points  
-**Risk Priority**: High  
+**Expected**: give expected result  
+**Risk Priority**: low, medium or high  
 ```
 
 ### 2. Exploratory Testing
@@ -81,18 +81,14 @@ While executing your test cases:
 Log **2 bugs** in GitHub Issues using this format:
 
 ```
-**Title**: Score not reset after new game  
+**Title**: user login  
 **Steps**:  
-1. Solve puzzle (score = 10)  
-2. Click "New Puzzle"  
-3. Solve next puzzle  
+1. Step 1 
+2. Step 2  
+3. final step 
 
-**Expected**: Score starts from 0  
-**Actual**: Score accumulates continuously  
-**Severity**: Medium  
-**Risk Impact**: High (affects game fairness)  
+**Expected**: expected results 
+**Actual**: the actual results seen 
+**Severity**: low, Medium  or high
+**Risk Impact**: low, medium or High
 ```
-
----
-
-## 📤 Submission Instructions
