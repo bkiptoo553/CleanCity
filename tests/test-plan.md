@@ -1,3 +1,7 @@
+**Student:** Brian kiptoo
+**Cohort:** february 2025
+**Role:** Tester
+
 ### 1. Test Objectives
 
 * Test marking a comment as in appropriate
