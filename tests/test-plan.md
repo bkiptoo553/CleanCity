@@ -36,8 +36,7 @@
 ---
 
 ## ⚠️ Risk Analysis Task
-
-Create a `RiskAnalysis.md` file with:
+create risk assesment table
 
 ### Risk Assessment Table
 
