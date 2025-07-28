@@ -1,98 +1,87 @@
-### 1. Test Objectives
+# Test Cases and Checklists for BlogAdmin Component
 
-> Test marking a comment as in appropriate
-> ensure a new blog post can be added
-> Ensure comments can be rendered and deleted
-> ensure a new blog post can be added
+## Test Cases
 
-### 2. Scope
-
-> 
-> 
->
-> * In scope: Game logic, scoring system
-> * Out of scope: Browser compatibility
-
-### 3. Resources
-
-* **Team roles**: 1 tester
-* **Tools**: Browser DevTools, JS console
-* **Environment**: Chrome browser
-
-### 4. Schedule
-
-| Phase          | Time Estimate |
-| -------------- | ------------- |
-| Test Planning  |               |
-| Test Design    |               |
-| Test Execution |               |
-| Reporting      |               |
-
-### 5. Entry/Exit Criteria
-
-* **Entry**: Game is functional on Chrome
-* **Exit**: All critical bugs fixed, 90% test cases passed
+### TC-01: Add a New Blog Post
+**Description**: Verify that a new blog post can be added successfully.
+- **Steps**:
+  1. Click the "New Post" button.
+  2. Fill in the title, content, and tags fields.
+  3. Click the "Create Post" button.
+- **Expected Result**: The new post appears in the list of blog posts with the correct details.
 
 ---
 
-## ⚠️ Risk Analysis Task
-
-Create a `Risk_Analysis.md` file with:
-
-### Risk Assessment Table
-
-| Feature        | Risk                        | Likelihood | Impact | Priority |
-
-
-### Risk Mitigation Strategies
-
-> *Example*: For scoring risks: Implement boundary value testing
+### TC-02: Edit an Existing Blog Post
+**Description**: Verify that an existing blog post can be edited.
+- **Steps**:
+  1. Click the "Edit" button on a blog post.
+  2. Modify the title, content, or tags fields.
+  3. Click the "Update Post" button.
+- **Expected Result**: The post is updated with the new details.
 
 ---
 
-## 🧪 Test Design & Execution
-
-### 1. Risk-Based Test Cases
-
-Design 5 test cases prioritizing high-risk areas. Use this format:
-
-```
-**ID**: TC-01  
-**Feature**: Scoring System  
-**Test**: Verify score deduction when using hint  
-**Steps**:  
-1. Solve puzzle without hint  
-2. Note score  
-3. Solve identical puzzle with hint  
-
-**Expected**: Hint reduces score by 2 points  
-**Risk Priority**: High  
-```
-
-### 2. Exploratory Testing
-
-While executing your test cases:
-
-* Monitor console for errors
-* Control test execution with DevTools
-
-### 3. Defect Reporting
-
-Log **2 bugs** in GitHub Issues using this format:
-
-```
-**Title**: Score not reset after new game  
-**Steps**:  
-1. Solve puzzle (score = 10)  
-2. Click "New Puzzle"  
-3. Solve next puzzle  
-
-**Expected**: Score starts from 0  
-**Actual**: Score accumulates continuously  
-**Severity**: Medium  
-**Risk Impact**: High (affects game fairness)  
-```
+### TC-03: Delete a Blog Post
+**Description**: Verify that a blog post can be deleted.
+- **Steps**:
+  1. Click the "Delete" button on a blog post.
+  2. Confirm the deletion in the popup.
+- **Expected Result**: The post is removed from the list, and associated comments are deleted.
 
 ---
 
-## 📤 Submission Instructions
+### TC-04: Add a Comment to a Blog Post
+**Description**: Verify that a comment can be added to a blog post.
+- **Steps**:
+  1. Navigate to a blog post.
+  2. Enter a comment in the comment field.
+  3. Click the "Add Comment" button.
+- **Expected Result**: The comment appears under the blog post.
+
+---
+
+### TC-05: Delete a Comment
+**Description**: Verify that a comment can be deleted.
+- **Steps**:
+  1. Click the "Delete" button on a comment.
+  2. Confirm the deletion in the popup.
+- **Expected Result**: The comment is removed from the list.
+
+---
+
+### TC-06: Mark a Comment as Inappropriate
+**Description**: Verify that a comment can be marked as inappropriate.
+- **Steps**:
+  1. Click the "Mark as Inappropriate" button on a comment.
+- **Expected Result**: The comment is flagged as inappropriate.
+
+---
+
+## Checklists
+
+### Blog Post Management
+- [ ] Can add a new blog post.
+- [ ] Can edit an existing blog post.
+- [ ] Can delete a blog post.
+- [ ] Blog post list updates correctly after changes.
+
+### Comment Management
+- [ ] Can add a comment to a blog post.
+- [ ] Can delete a comment.
+- [ ] Can mark a comment as inappropriate.
+- [ ] Comments are associated with the correct blog post.
+
+### Data Persistence
+- [ ] Blog posts are saved to `localStorage`.
+- [ ] Comments are saved to `localStorage`.
+- [ ] Data persists across page reloads.
+
+### UI/UX
+- [ ] Form validation works (e.g., required fields).
+- [ ] Buttons and inputs are accessible and labeled correctly.
+- [ ] Responsive design works on different screen sizes.
+
+### Error Handling
+- [ ] Displays an error message for invalid form inputs.
+- [ ] Handles missing or corrupted `localStorage` data gracefully.
