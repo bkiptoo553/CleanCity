@@ -1,11 +1,11 @@
 
 ---
 
-#  Defect Log – CleanCity Blog Admin Panel
+#  Defect Log – CleanCity Blog admin panel
 
 ## Overview
 
-This document outlines the currently identified defects in the `BlogAdmin` component, primarily uncovered through failed automated tests using React Testing Library.
+This document outlines the currently identified defects in the `BlogAdmin` component and other aspects of the app, primarily uncovered through failed automated tests using React Testing Library and manual testing.
 
 ---
 
@@ -111,3 +111,25 @@ This document outlines the currently identified defects in the `BlogAdmin` compo
 **Logged By**: Brian Kiptoo
 
 ---
+# Defect log - Clean City blog UI/UX
+### Defect 1:featured posts hiding
+* **Observation**:
+   * the featured section does not disapper when searching 
+* **Impact**:
+   * Users would struggle to go to their searched results
+* **Fix**:
+   * Ensure that the featured section is hidden when a search is occuring by modifying `Css files`
+### Defect 2:Comments on specific posts don't appear
+* **Observation**:
+   * a comment made on a specific post does not appear on the dashboard on my comments section.
+* **Impact**:
+   * A comment does not appear it would discourage the users from commenting
+* **Fix**:
+   * allow comments buy users to be displayed.
+### Defect 3:Empty Profile details
+* **Observation**:
+    * Users can remove all their details without providing them again
+* **Impact**:
+    * the profile sections remain empty.
+* **Fix**:
+    * prohibit empty profiles only change of profiles
