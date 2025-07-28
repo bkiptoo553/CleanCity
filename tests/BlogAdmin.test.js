@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
-import BlogAdmin from '../BlogAdmin';
+import BlogAdmin from '../src/components/blog/BlogAdmin';
 
 describe('BlogAdmin Component', () => {
   beforeEach(() => {
