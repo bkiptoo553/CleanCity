@@ -86,7 +86,9 @@
 ### Error Handling
 - [ ] Displays an error message for invalid form inputs.
 - [ ] Handles missing or corrupted `localStorage` data gracefully.
-=======
+
+---
+
 **Student:** Brian kiptoo
 **Cohort:** february 2025
 **Role:** Tester
