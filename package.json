@@ -46,5 +46,9 @@
     "identity-obj-proxy": "^3.0.0",
     "jest": "^27.5.1",
     "jest-junit": "^16.0.0"
+  },
+  "jest-junit": {
+    "outputDirectory": "./test-results",
+    "outputName": "junit.xml"
   }
 }
