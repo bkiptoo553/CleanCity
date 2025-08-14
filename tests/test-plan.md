@@ -23,10 +23,10 @@
 
 | Phase          | Time Estimate |
 | -------------- | ------------- |
-| Test Planning  |               |
-| Test Design    |               |
-| Test Execution |               |
-| Reporting      |               |
+| Test Planning  |  9:00 - 10:00 |
+| Test Design    | 10:05 - 11:00 |
+| Test Execution | 11:00 - 12:00 |
+| Reporting      | 14:00 - 16:00 |
 
 ### 5. Entry/Exit Criteria
 
@@ -36,8 +36,7 @@
 ---
 
 ## ⚠️ Risk Analysis Task
-
-Create a `RiskAnalysis.md` file with:
+create risk assesment table
 
 ### Risk Assessment Table
 
