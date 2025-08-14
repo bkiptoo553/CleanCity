@@ -19,6 +19,8 @@ jobs:
         with:
           node-version: '18'
 
+      - name: Ensure test-results directory exists
+        run: mkdir -p ./test-results
       - name: Cache npm
         uses: actions/cache@v4
         with:
