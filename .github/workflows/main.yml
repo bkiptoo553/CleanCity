@@ -30,9 +30,6 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Build (if needed)
-        run: npm run build
-
       - name: Run tests and output results
         run: npm test -- --ci --reporters=default --reporters=jest-junit
 
