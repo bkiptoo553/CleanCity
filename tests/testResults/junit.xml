@@ -1,0 +1,1617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="6" failures="6" errors="0" time="1.617">
+  <testsuite name="BlogAdmin Component" errors="0" failures="6" skipped="0" timestamp="2025-08-14T07:06:29" time="1.171" tests="6">
+    <testcase classname="BlogAdmin Component should add a new blog post" name="BlogAdmin Component should add a new blog post" time="0.1">
+      <failure>TestingLibraryElementError: Unable to find an element with the text: New Post. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;div
+      class=&quot;blog-page-root&quot;
+    &gt;
+      &lt;div
+        aria-label=&quot;Blog Admin Panel&quot;
+        class=&quot;blog-card-main&quot;
+        role=&quot;main&quot;
+      &gt;
+        &lt;div
+          class=&quot;blog-brand&quot;
+        &gt;
+          🧹 
+          &lt;span&gt;
+            CleanCity
+          &lt;/span&gt;
+        &lt;/div&gt;
+        &lt;h2&gt;
+          Blog Admin Panel
+        &lt;/h2&gt;
+        &lt;form
+          aria-label=&quot;Add Blog Post&quot;
+          class=&quot;blog-admin-form&quot;
+        &gt;
+          &lt;input
+            placeholder=&quot;Title&quot;
+            required=&quot;&quot;
+            type=&quot;text&quot;
+            value=&quot;&quot;
+          /&gt;
+          &lt;div
+            class=&quot;blog-page-root&quot;
+          &gt;
+            &lt;div
+              aria-label=&quot;Blog Editor&quot;
+              class=&quot;blog-card-main&quot;
+              role=&quot;main&quot;
+            &gt;
+              &lt;div
+                class=&quot;blog-brand&quot;
+              &gt;
+                🧹 
+                &lt;span&gt;
+                  CleanCity
+                &lt;/span&gt;
+              &lt;/div&gt;
+              &lt;h2&gt;
+                New Blog Post
+              &lt;/h2&gt;
+              &lt;form
+                aria-label=&quot;Blog Editor Form&quot;
+                class=&quot;blog-admin-form&quot;
+              &gt;
+                &lt;input
+                  placeholder=&quot;Title&quot;
+                  required=&quot;&quot;
+                  type=&quot;text&quot;
+                  value=&quot;&quot;
+                /&gt;
+                &lt;input
+                  placeholder=&quot;Summary&quot;
+                  required=&quot;&quot;
+                  type=&quot;text&quot;
+                  value=&quot;&quot;
+                /&gt;
+                &lt;textarea
+                  placeholder=&quot;Content&quot;
+                  required=&quot;&quot;
+                /&gt;
+                &lt;input
+                  placeholder=&quot;Tags (comma separated)&quot;
+                  type=&quot;text&quot;
+                  value=&quot;&quot;
+                /&gt;
+                &lt;button
+                  class=&quot;blog-read-link&quot;
+                  type=&quot;submit&quot;
+                &gt;
+                  Publish
+                &lt;/button&gt;
+              &lt;/form&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;input
+            placeholder=&quot;Tags (comma separated)&quot;
+            type=&quot;text&quot;
+            value=&quot;&quot;
+          /&gt;
+          &lt;button
+            class=&quot;blog-read-link&quot;
+            type=&quot;submit&quot;
+          &gt;
+            Create
+             Post
+          &lt;/button&gt;
+          &lt;button
+            type=&quot;button&quot;
+          &gt;
+            Cancel
+          &lt;/button&gt;
+        &lt;/form&gt;
+        &lt;section
+          class=&quot;blog-list&quot;
+        &gt;
+          &lt;h3&gt;
+            All Blog Posts
+          &lt;/h3&gt;
+          &lt;div
+            class=&quot;blog-list-cards&quot;
+          &gt;
+            &lt;div
+              class=&quot;blog-card&quot;
+            &gt;
+              &lt;h4&gt;
+                5 Ways to Reduce Household Waste
+              &lt;/h4&gt;
+              &lt;div
+                class=&quot;blog-meta&quot;
+              &gt;
+                &lt;span&gt;
+                  EcoTeam
+                &lt;/span&gt;
+                 | 
+                &lt;span&gt;
+                  2024-06-01
+                &lt;/span&gt;
+              &lt;/div&gt;
+              &lt;div
+                class=&quot;blog-tags&quot;
+              &gt;
+                &lt;span&gt;
+                  Tips
+                &lt;/span&gt;
+                &lt;span&gt;
+                  Household
+                &lt;/span&gt;
+              &lt;/div&gt;
+              &lt;button
+                aria-label=&quot;Edit post 5 Ways to Reduce Household Waste&quot;
+              &gt;
+                Edit
+              &lt;/button&gt;
+              &lt;button
+                aria-label=&quot;Delete post 5 Ways to Reduce Household Waste&quot;
+              &gt;
+                Delete
+              &lt;/button&gt;
+            &lt;/div&gt;
+            &lt;div
+              class=&quot;blog-card&quot;
+            &gt;
+              &lt;h4&gt;
+                How CleanCity Improved My Neighborhood
+              &lt;/h4&gt;
+              &lt;div
+                class=&quot;blog-meta&quot;
+              &gt;
+                &lt;span&gt;
+                  Jane M.
+                &lt;/span&gt;
+                 | 
+                &lt;span&gt;
+                  2024-05-28
+                &lt;/span&gt;
+              &lt;/div&gt;
+              &lt;div
+                class=&quot;blog-tags&quot;
+              &gt;
+                &lt;span&gt;
+                  Community
+                &lt;/span&gt;
+                &lt;span&gt;
+                  Story
+                &lt;/span&gt;
+              &lt;/div&gt;
+              &lt;button
+                aria-label=&quot;Edit post How CleanCity Improved My Neighborhood&quot;
+              &gt;
+                Edit
+              &lt;/button&gt;
+              &lt;button
+                aria-label=&quot;Delete post How CleanCity Improved My Neighborhood&quot;
+              &gt;
+                Delete
+              &lt;/button&gt;
+            &lt;/div&gt;
+            &lt;div
+              class=&quot;blog-card&quot;
+            &gt;
+              &lt;h4&gt;
+                Understanding Recycling Symbols
+              &lt;/h4&gt;
+              &lt;div
+                class=&quot;blog-meta&quot;
+              &gt;
+                &lt;span&gt;
+                  Admin
+                &lt;/span&gt;
+                 | 
+                &lt;span&gt;
+                  2024-05-20
+                &lt;/span&gt;
+              &lt;/div&gt;
+              &lt;div
+                class=&quot;blog-tags&quot;
+              &gt;
+                &lt;span&gt;
+                  Recycling
+                &lt;/span&gt;
+                &lt;span&gt;
+                  Education
+                &lt;/span&gt;
+              &lt;/div&gt;
+              &lt;button
+                aria-label=&quot;Edit post Understanding Recycling Symbols&quot;
+              &gt;
+                Edit
+              &lt;/button&gt;
+              &lt;button
+                aria-label=&quot;Delete post Understanding Recycling Symbols&quot;
+              &gt;
+                Delete
+              &lt;/button&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/section&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+    at Object.getElementError (/home/runner/work/CleanCity/CleanCity/node_modules/@testing-library/dom/dist/config.js:37:19)
+    at /home/runner/work/CleanCity/CleanCity/node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+    at /home/runner/work/CleanCity/CleanCity/node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+    at getByText (/home/runner/work/CleanCity/CleanCity/node_modules/@testing-library/dom/dist/query-helpers.js:95:19)
+    at Object.&lt;anonymous&gt; (/home/runner/work/CleanCity/CleanCity/tests/BlogAdmin.test.js:31:28)
+    at Promise.then.completed (/home/runner/work/CleanCity/CleanCity/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/home/runner/work/CleanCity/CleanCity/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/home/runner/work/CleanCity/CleanCity/node_modules/jest-circus/build/run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/home/runner/work/CleanCity/CleanCity/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/home/runner/work/CleanCity/CleanCity/node_modules/jest-circus/build/run.js:66:9)
+    at _runTestsForDescribeBlock (/home/runner/work/CleanCity/CleanCity/node_modules/jest-circus/build/run.js:60:9)
+    at run (/home/runner/work/CleanCity/CleanCity/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/runner/work/CleanCity/CleanCity/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/home/runner/work/CleanCity/CleanCity/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/home/runner/work/CleanCity/CleanCity/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/home/runner/work/CleanCity/CleanCity/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/home/runner/work/CleanCity/CleanCity/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/home/runner/work/CleanCity/CleanCity/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/home/runner/work/CleanCity/CleanCity/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/home/runner/work/CleanCity/CleanCity/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/home/runner/work/CleanCity/CleanCity/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/home/runner/work/CleanCity/CleanCity/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+    <testcase classname="BlogAdmin Component should edit an existing blog post" name="BlogAdmin Component should edit an existing blog post" time="0.016">
+      <failure>TestingLibraryElementError: Found multiple elements with the text: Edit
+
+Here are the matching elements:
+
+Ignored nodes: comments, script, style
+&lt;button
+  aria-label=&quot;Edit post 5 Ways to Reduce Household Waste&quot;
+&gt;
+  Edit
+&lt;/button&gt;
+
+Ignored nodes: comments, script, style
+&lt;button
+  aria-label=&quot;Edit post How CleanCity Improved My Neighborhood&quot;
+&gt;
+  Edit
+&lt;/button&gt;
+
+Ignored nodes: comments, script, style
+&lt;button
+  aria-label=&quot;Edit post Understanding Recycling Symbols&quot;
+&gt;
+  Edit
+&lt;/button&gt;
+
+(If this is intentional, then use the `*AllBy*` variant of the query (like `queryAllByText`, `getAllByText`, or `findAllByText`)).
+
+Ignored nodes: comments, script, style
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;div
+      class=&quot;blog-page-root&quot;
+    &gt;
+      &lt;div
+        aria-label=&quot;Blog Admin Panel&quot;
+        class=&quot;blog-card-main&quot;
+        role=&quot;main&quot;
+      &gt;
+        &lt;div
+          class=&quot;blog-brand&quot;
+        &gt;
+          🧹 
+          &lt;span&gt;
+            CleanCity
+          &lt;/span&gt;
+        &lt;/div&gt;
+        &lt;h2&gt;
+          Blog Admin Panel
+        &lt;/h2&gt;
+        &lt;form
+          aria-label=&quot;Add Blog Post&quot;
+          class=&quot;blog-admin-form&quot;
+        &gt;
+          &lt;input
+            placeholder=&quot;Title&quot;
+            required=&quot;&quot;
+            type=&quot;text&quot;
+            value=&quot;&quot;
+          /&gt;
+          &lt;div
+            class=&quot;blog-page-root&quot;
+          &gt;
+            &lt;div
+              aria-label=&quot;Blog Editor&quot;
+              class=&quot;blog-card-main&quot;
+              role=&quot;main&quot;
+            &gt;
+              &lt;div
+                class=&quot;blog-brand&quot;
+              &gt;
+                🧹 
+                &lt;span&gt;
+                  CleanCity
+                &lt;/span&gt;
+              &lt;/div&gt;
+              &lt;h2&gt;
+                New Blog Post
+              &lt;/h2&gt;
+              &lt;form
+                aria-label=&quot;Blog Editor Form&quot;
+                class=&quot;blog-admin-form&quot;
+              &gt;
+                &lt;input
+                  placeholder=&quot;Title&quot;
+                  required=&quot;&quot;
+                  type=&quot;text&quot;
+                  value=&quot;&quot;
+                /&gt;
+                &lt;input
+                  placeholder=&quot;Summary&quot;
+                  required=&quot;&quot;
+                  type=&quot;text&quot;
+                  value=&quot;&quot;
+                /&gt;
+                &lt;textarea
+                  placeholder=&quot;Content&quot;
+                  required=&quot;&quot;
+                /&gt;
+                &lt;input
+                  placeholder=&quot;Tags (comma separated)&quot;
+                  type=&quot;text&quot;
+                  value=&quot;&quot;
+                /&gt;
+                &lt;button
+                  class=&quot;blog-read-link&quot;
+                  type=&quot;submit&quot;
+                &gt;
+                  Publish
+                &lt;/button&gt;
+              &lt;/form&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;input
+            placeholder=&quot;Tags (comma separated)&quot;
+            type=&quot;text&quot;
+            value=&quot;&quot;
+          /&gt;
+          &lt;button
+            class=&quot;blog-read-link&quot;
+            type=&quot;submit&quot;
+          &gt;
+            Create
+             Post
+          &lt;/button&gt;
+          &lt;button
+            type=&quot;button&quot;
+          &gt;
+            Cancel
+          &lt;/button&gt;
+        &lt;/form&gt;
+        &lt;section
+          class=&quot;blog-list&quot;
+        &gt;
+          &lt;h3&gt;
+            All Blog Posts
+          &lt;/h3&gt;
+          &lt;div
+            class=&quot;blog-list-cards&quot;
+          &gt;
+            &lt;div
+              class=&quot;blog-card&quot;
+            &gt;
+              &lt;h4&gt;
+                5 Ways to Reduce Household Waste
+              &lt;/h4&gt;
+              &lt;div
+                class=&quot;blog-meta&quot;
+              &gt;
+                &lt;span&gt;
+                  EcoTeam
+                &lt;/span&gt;
+                 | 
+                &lt;span&gt;
+                  2024-06-01
+                &lt;/span&gt;
+              &lt;/div&gt;
+              &lt;div
+                class=&quot;blog-tags&quot;
+              &gt;
+                &lt;span&gt;
+                  Tips
+                &lt;/span&gt;
+                &lt;span&gt;
+                  Household
+                &lt;/span&gt;
+              &lt;/div&gt;
+              &lt;button
+                aria-label=&quot;Edit post 5 Ways to Reduce Household Waste&quot;
+              &gt;
+                Edit
+              &lt;/button&gt;
+              &lt;button
+                aria-label=&quot;Delete post 5 Ways to Reduce Household Waste&quot;
+              &gt;
+                Delete
+              &lt;/button&gt;
+            &lt;/div&gt;
+            &lt;div
+              class=&quot;blog-card&quot;
+            &gt;
+              &lt;h4&gt;
+                How CleanCity Improved My Neighborhood
+              &lt;/h4&gt;
+              &lt;div
+                class=&quot;blog-meta&quot;
+              &gt;
+                &lt;span&gt;
+                  Jane M.
+                &lt;/span&gt;
+                 | 
+                &lt;span&gt;
+                  2024-05-28
+                &lt;/span&gt;
+              &lt;/div&gt;
+              &lt;div
+                class=&quot;blog-tags&quot;
+              &gt;
+                &lt;span&gt;
+                  Community
+                &lt;/span&gt;
+                &lt;span&gt;
+                  Story
+                &lt;/span&gt;
+              &lt;/div&gt;
+              &lt;button
+                aria-label=&quot;Edit post How CleanCity Improved My Neighborhood&quot;
+              &gt;
+                Edit
+              &lt;/button&gt;
+              &lt;button
+                aria-label=&quot;Delete post How CleanCity Improved My Neighborhood&quot;
+              &gt;
+                Delete
+              &lt;/button&gt;
+            &lt;/div&gt;
+            &lt;div
+              class=&quot;blog-card&quot;
+            &gt;
+              &lt;h4&gt;
+                Understanding Recycling Symbols
+              &lt;/h4&gt;
+              &lt;div
+                class=&quot;blog-meta&quot;
+              &gt;
+                &lt;span&gt;
+                  Admin
+                &lt;/span&gt;
+                 | 
+                &lt;span&gt;
+                  2024-05-20
+                &lt;/span&gt;
+              &lt;/div&gt;
+              &lt;div
+                class=&quot;blog-tags&quot;
+              &gt;
+                &lt;span&gt;
+                  Recycling
+                &lt;/span&gt;
+                &lt;span&gt;
+                  Education
+                &lt;/span&gt;
+              &lt;/div&gt;
+              &lt;button
+                aria-label=&quot;Edit post Understanding Recycling Symbols&quot;
+              &gt;
+                Edit
+              &lt;/button&gt;
+              &lt;button
+                aria-label=&quot;Delete post Understanding Recycling Symbols&quot;
+              &gt;
+                Delete
+              &lt;/button&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/section&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+    at Object.getElementError (/home/runner/work/CleanCity/CleanCity/node_modules/@testing-library/dom/dist/config.js:37:19)
+    at getElementError (/home/runner/work/CleanCity/CleanCity/node_modules/@testing-library/dom/dist/query-helpers.js:20:35)
+    at getMultipleElementsFoundError (/home/runner/work/CleanCity/CleanCity/node_modules/@testing-library/dom/dist/query-helpers.js:23:10)
+    at /home/runner/work/CleanCity/CleanCity/node_modules/@testing-library/dom/dist/query-helpers.js:55:13
+    at getByText (/home/runner/work/CleanCity/CleanCity/node_modules/@testing-library/dom/dist/query-helpers.js:95:19)
+    at Object.&lt;anonymous&gt; (/home/runner/work/CleanCity/CleanCity/tests/BlogAdmin.test.js:48:28)
+    at Promise.then.completed (/home/runner/work/CleanCity/CleanCity/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/home/runner/work/CleanCity/CleanCity/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/home/runner/work/CleanCity/CleanCity/node_modules/jest-circus/build/run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/home/runner/work/CleanCity/CleanCity/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/home/runner/work/CleanCity/CleanCity/node_modules/jest-circus/build/run.js:66:9)
+    at _runTestsForDescribeBlock (/home/runner/work/CleanCity/CleanCity/node_modules/jest-circus/build/run.js:60:9)
+    at run (/home/runner/work/CleanCity/CleanCity/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/runner/work/CleanCity/CleanCity/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/home/runner/work/CleanCity/CleanCity/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/home/runner/work/CleanCity/CleanCity/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/home/runner/work/CleanCity/CleanCity/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/home/runner/work/CleanCity/CleanCity/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/home/runner/work/CleanCity/CleanCity/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/home/runner/work/CleanCity/CleanCity/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/home/runner/work/CleanCity/CleanCity/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/home/runner/work/CleanCity/CleanCity/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/home/runner/work/CleanCity/CleanCity/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+    <testcase classname="BlogAdmin Component should delete a blog post" name="BlogAdmin Component should delete a blog post" time="0.013">
+      <failure>TestingLibraryElementError: Found multiple elements with the text: Delete
+
+Here are the matching elements:
+
+Ignored nodes: comments, script, style
+&lt;button
+  aria-label=&quot;Delete post 5 Ways to Reduce Household Waste&quot;
+&gt;
+  Delete
+&lt;/button&gt;
+
+Ignored nodes: comments, script, style
+&lt;button
+  aria-label=&quot;Delete post How CleanCity Improved My Neighborhood&quot;
+&gt;
+  Delete
+&lt;/button&gt;
+
+Ignored nodes: comments, script, style
+&lt;button
+  aria-label=&quot;Delete post Understanding Recycling Symbols&quot;
+&gt;
+  Delete
+&lt;/button&gt;
+
+(If this is intentional, then use the `*AllBy*` variant of the query (like `queryAllByText`, `getAllByText`, or `findAllByText`)).
+
+Ignored nodes: comments, script, style
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;div
+      class=&quot;blog-page-root&quot;
+    &gt;
+      &lt;div
+        aria-label=&quot;Blog Admin Panel&quot;
+        class=&quot;blog-card-main&quot;
+        role=&quot;main&quot;
+      &gt;
+        &lt;div
+          class=&quot;blog-brand&quot;
+        &gt;
+          🧹 
+          &lt;span&gt;
+            CleanCity
+          &lt;/span&gt;
+        &lt;/div&gt;
+        &lt;h2&gt;
+          Blog Admin Panel
+        &lt;/h2&gt;
+        &lt;form
+          aria-label=&quot;Add Blog Post&quot;
+          class=&quot;blog-admin-form&quot;
+        &gt;
+          &lt;input
+            placeholder=&quot;Title&quot;
+            required=&quot;&quot;
+            type=&quot;text&quot;
+            value=&quot;&quot;
+          /&gt;
+          &lt;div
+            class=&quot;blog-page-root&quot;
+          &gt;
+            &lt;div
+              aria-label=&quot;Blog Editor&quot;
+              class=&quot;blog-card-main&quot;
+              role=&quot;main&quot;
+            &gt;
+              &lt;div
+                class=&quot;blog-brand&quot;
+              &gt;
+                🧹 
+                &lt;span&gt;
+                  CleanCity
+                &lt;/span&gt;
+              &lt;/div&gt;
+              &lt;h2&gt;
+                New Blog Post
+              &lt;/h2&gt;
+              &lt;form
+                aria-label=&quot;Blog Editor Form&quot;
+                class=&quot;blog-admin-form&quot;
+              &gt;
+                &lt;input
+                  placeholder=&quot;Title&quot;
+                  required=&quot;&quot;
+                  type=&quot;text&quot;
+                  value=&quot;&quot;
+                /&gt;
+                &lt;input
+                  placeholder=&quot;Summary&quot;
+                  required=&quot;&quot;
+                  type=&quot;text&quot;
+                  value=&quot;&quot;
+                /&gt;
+                &lt;textarea
+                  placeholder=&quot;Content&quot;
+                  required=&quot;&quot;
+                /&gt;
+                &lt;input
+                  placeholder=&quot;Tags (comma separated)&quot;
+                  type=&quot;text&quot;
+                  value=&quot;&quot;
+                /&gt;
+                &lt;button
+                  class=&quot;blog-read-link&quot;
+                  type=&quot;submit&quot;
+                &gt;
+                  Publish
+                &lt;/button&gt;
+              &lt;/form&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;input
+            placeholder=&quot;Tags (comma separated)&quot;
+            type=&quot;text&quot;
+            value=&quot;&quot;
+          /&gt;
+          &lt;button
+            class=&quot;blog-read-link&quot;
+            type=&quot;submit&quot;
+          &gt;
+            Create
+             Post
+          &lt;/button&gt;
+          &lt;button
+            type=&quot;button&quot;
+          &gt;
+            Cancel
+          &lt;/button&gt;
+        &lt;/form&gt;
+        &lt;section
+          class=&quot;blog-list&quot;
+        &gt;
+          &lt;h3&gt;
+            All Blog Posts
+          &lt;/h3&gt;
+          &lt;div
+            class=&quot;blog-list-cards&quot;
+          &gt;
+            &lt;div
+              class=&quot;blog-card&quot;
+            &gt;
+              &lt;h4&gt;
+                5 Ways to Reduce Household Waste
+              &lt;/h4&gt;
+              &lt;div
+                class=&quot;blog-meta&quot;
+              &gt;
+                &lt;span&gt;
+                  EcoTeam
+                &lt;/span&gt;
+                 | 
+                &lt;span&gt;
+                  2024-06-01
+                &lt;/span&gt;
+              &lt;/div&gt;
+              &lt;div
+                class=&quot;blog-tags&quot;
+              &gt;
+                &lt;span&gt;
+                  Tips
+                &lt;/span&gt;
+                &lt;span&gt;
+                  Household
+                &lt;/span&gt;
+              &lt;/div&gt;
+              &lt;button
+                aria-label=&quot;Edit post 5 Ways to Reduce Household Waste&quot;
+              &gt;
+                Edit
+              &lt;/button&gt;
+              &lt;button
+                aria-label=&quot;Delete post 5 Ways to Reduce Household Waste&quot;
+              &gt;
+                Delete
+              &lt;/button&gt;
+            &lt;/div&gt;
+            &lt;div
+              class=&quot;blog-card&quot;
+            &gt;
+              &lt;h4&gt;
+                How CleanCity Improved My Neighborhood
+              &lt;/h4&gt;
+              &lt;div
+                class=&quot;blog-meta&quot;
+              &gt;
+                &lt;span&gt;
+                  Jane M.
+                &lt;/span&gt;
+                 | 
+                &lt;span&gt;
+                  2024-05-28
+                &lt;/span&gt;
+              &lt;/div&gt;
+              &lt;div
+                class=&quot;blog-tags&quot;
+              &gt;
+                &lt;span&gt;
+                  Community
+                &lt;/span&gt;
+                &lt;span&gt;
+                  Story
+                &lt;/span&gt;
+              &lt;/div&gt;
+              &lt;button
+                aria-label=&quot;Edit post How CleanCity Improved My Neighborhood&quot;
+              &gt;
+                Edit
+              &lt;/button&gt;
+              &lt;button
+                aria-label=&quot;Delete post How CleanCity Improved My Neighborhood&quot;
+              &gt;
+                Delete
+              &lt;/button&gt;
+            &lt;/div&gt;
+            &lt;div
+              class=&quot;blog-card&quot;
+            &gt;
+              &lt;h4&gt;
+                Understanding Recycling Symbols
+              &lt;/h4&gt;
+              &lt;div
+                class=&quot;blog-meta&quot;
+              &gt;
+                &lt;span&gt;
+                  Admin
+                &lt;/span&gt;
+                 | 
+                &lt;span&gt;
+                  2024-05-20
+                &lt;/span&gt;
+              &lt;/div&gt;
+              &lt;div
+                class=&quot;blog-tags&quot;
+              &gt;
+                &lt;span&gt;
+                  Recycling
+                &lt;/span&gt;
+                &lt;span&gt;
+                  Education
+                &lt;/span&gt;
+              &lt;/div&gt;
+              &lt;button
+                aria-label=&quot;Edit post Understanding Recycling Symbols&quot;
+              &gt;
+                Edit
+              &lt;/button&gt;
+              &lt;button
+                aria-label=&quot;Delete post Understanding Recycling Symbols&quot;
+              &gt;
+                Delete
+              &lt;/button&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/section&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+    at Object.getElementError (/home/runner/work/CleanCity/CleanCity/node_modules/@testing-library/dom/dist/config.js:37:19)
+    at getElementError (/home/runner/work/CleanCity/CleanCity/node_modules/@testing-library/dom/dist/query-helpers.js:20:35)
+    at getMultipleElementsFoundError (/home/runner/work/CleanCity/CleanCity/node_modules/@testing-library/dom/dist/query-helpers.js:23:10)
+    at /home/runner/work/CleanCity/CleanCity/node_modules/@testing-library/dom/dist/query-helpers.js:55:13
+    at getByText (/home/runner/work/CleanCity/CleanCity/node_modules/@testing-library/dom/dist/query-helpers.js:95:19)
+    at Object.&lt;anonymous&gt; (/home/runner/work/CleanCity/CleanCity/tests/BlogAdmin.test.js:61:28)
+    at Promise.then.completed (/home/runner/work/CleanCity/CleanCity/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/home/runner/work/CleanCity/CleanCity/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/home/runner/work/CleanCity/CleanCity/node_modules/jest-circus/build/run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/home/runner/work/CleanCity/CleanCity/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/home/runner/work/CleanCity/CleanCity/node_modules/jest-circus/build/run.js:66:9)
+    at _runTestsForDescribeBlock (/home/runner/work/CleanCity/CleanCity/node_modules/jest-circus/build/run.js:60:9)
+    at run (/home/runner/work/CleanCity/CleanCity/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/runner/work/CleanCity/CleanCity/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/home/runner/work/CleanCity/CleanCity/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/home/runner/work/CleanCity/CleanCity/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/home/runner/work/CleanCity/CleanCity/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/home/runner/work/CleanCity/CleanCity/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/home/runner/work/CleanCity/CleanCity/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/home/runner/work/CleanCity/CleanCity/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/home/runner/work/CleanCity/CleanCity/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/home/runner/work/CleanCity/CleanCity/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/home/runner/work/CleanCity/CleanCity/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+    <testcase classname="BlogAdmin Component should add a comment to a blog post" name="BlogAdmin Component should add a comment to a blog post" time="0.014">
+      <failure>TestingLibraryElementError: Unable to find an element with the placeholder text of: Add a comment
+
+Ignored nodes: comments, script, style
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;div
+      class=&quot;blog-page-root&quot;
+    &gt;
+      &lt;div
+        aria-label=&quot;Blog Admin Panel&quot;
+        class=&quot;blog-card-main&quot;
+        role=&quot;main&quot;
+      &gt;
+        &lt;div
+          class=&quot;blog-brand&quot;
+        &gt;
+          🧹 
+          &lt;span&gt;
+            CleanCity
+          &lt;/span&gt;
+        &lt;/div&gt;
+        &lt;h2&gt;
+          Blog Admin Panel
+        &lt;/h2&gt;
+        &lt;form
+          aria-label=&quot;Add Blog Post&quot;
+          class=&quot;blog-admin-form&quot;
+        &gt;
+          &lt;input
+            placeholder=&quot;Title&quot;
+            required=&quot;&quot;
+            type=&quot;text&quot;
+            value=&quot;&quot;
+          /&gt;
+          &lt;div
+            class=&quot;blog-page-root&quot;
+          &gt;
+            &lt;div
+              aria-label=&quot;Blog Editor&quot;
+              class=&quot;blog-card-main&quot;
+              role=&quot;main&quot;
+            &gt;
+              &lt;div
+                class=&quot;blog-brand&quot;
+              &gt;
+                🧹 
+                &lt;span&gt;
+                  CleanCity
+                &lt;/span&gt;
+              &lt;/div&gt;
+              &lt;h2&gt;
+                New Blog Post
+              &lt;/h2&gt;
+              &lt;form
+                aria-label=&quot;Blog Editor Form&quot;
+                class=&quot;blog-admin-form&quot;
+              &gt;
+                &lt;input
+                  placeholder=&quot;Title&quot;
+                  required=&quot;&quot;
+                  type=&quot;text&quot;
+                  value=&quot;&quot;
+                /&gt;
+                &lt;input
+                  placeholder=&quot;Summary&quot;
+                  required=&quot;&quot;
+                  type=&quot;text&quot;
+                  value=&quot;&quot;
+                /&gt;
+                &lt;textarea
+                  placeholder=&quot;Content&quot;
+                  required=&quot;&quot;
+                /&gt;
+                &lt;input
+                  placeholder=&quot;Tags (comma separated)&quot;
+                  type=&quot;text&quot;
+                  value=&quot;&quot;
+                /&gt;
+                &lt;button
+                  class=&quot;blog-read-link&quot;
+                  type=&quot;submit&quot;
+                &gt;
+                  Publish
+                &lt;/button&gt;
+              &lt;/form&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;input
+            placeholder=&quot;Tags (comma separated)&quot;
+            type=&quot;text&quot;
+            value=&quot;&quot;
+          /&gt;
+          &lt;button
+            class=&quot;blog-read-link&quot;
+            type=&quot;submit&quot;
+          &gt;
+            Create
+             Post
+          &lt;/button&gt;
+          &lt;button
+            type=&quot;button&quot;
+          &gt;
+            Cancel
+          &lt;/button&gt;
+        &lt;/form&gt;
+        &lt;section
+          class=&quot;blog-list&quot;
+        &gt;
+          &lt;h3&gt;
+            All Blog Posts
+          &lt;/h3&gt;
+          &lt;div
+            class=&quot;blog-list-cards&quot;
+          &gt;
+            &lt;div
+              class=&quot;blog-card&quot;
+            &gt;
+              &lt;h4&gt;
+                5 Ways to Reduce Household Waste
+              &lt;/h4&gt;
+              &lt;div
+                class=&quot;blog-meta&quot;
+              &gt;
+                &lt;span&gt;
+                  EcoTeam
+                &lt;/span&gt;
+                 | 
+                &lt;span&gt;
+                  2024-06-01
+                &lt;/span&gt;
+              &lt;/div&gt;
+              &lt;div
+                class=&quot;blog-tags&quot;
+              &gt;
+                &lt;span&gt;
+                  Tips
+                &lt;/span&gt;
+                &lt;span&gt;
+                  Household
+                &lt;/span&gt;
+              &lt;/div&gt;
+              &lt;button
+                aria-label=&quot;Edit post 5 Ways to Reduce Household Waste&quot;
+              &gt;
+                Edit
+              &lt;/button&gt;
+              &lt;button
+                aria-label=&quot;Delete post 5 Ways to Reduce Household Waste&quot;
+              &gt;
+                Delete
+              &lt;/button&gt;
+            &lt;/div&gt;
+            &lt;div
+              class=&quot;blog-card&quot;
+            &gt;
+              &lt;h4&gt;
+                How CleanCity Improved My Neighborhood
+              &lt;/h4&gt;
+              &lt;div
+                class=&quot;blog-meta&quot;
+              &gt;
+                &lt;span&gt;
+                  Jane M.
+                &lt;/span&gt;
+                 | 
+                &lt;span&gt;
+                  2024-05-28
+                &lt;/span&gt;
+              &lt;/div&gt;
+              &lt;div
+                class=&quot;blog-tags&quot;
+              &gt;
+                &lt;span&gt;
+                  Community
+                &lt;/span&gt;
+                &lt;span&gt;
+                  Story
+                &lt;/span&gt;
+              &lt;/div&gt;
+              &lt;button
+                aria-label=&quot;Edit post How CleanCity Improved My Neighborhood&quot;
+              &gt;
+                Edit
+              &lt;/button&gt;
+              &lt;button
+                aria-label=&quot;Delete post How CleanCity Improved My Neighborhood&quot;
+              &gt;
+                Delete
+              &lt;/button&gt;
+            &lt;/div&gt;
+            &lt;div
+              class=&quot;blog-card&quot;
+            &gt;
+              &lt;h4&gt;
+                Understanding Recycling Symbols
+              &lt;/h4&gt;
+              &lt;div
+                class=&quot;blog-meta&quot;
+              &gt;
+                &lt;span&gt;
+                  Admin
+                &lt;/span&gt;
+                 | 
+                &lt;span&gt;
+                  2024-05-20
+                &lt;/span&gt;
+              &lt;/div&gt;
+              &lt;div
+                class=&quot;blog-tags&quot;
+              &gt;
+                &lt;span&gt;
+                  Recycling
+                &lt;/span&gt;
+                &lt;span&gt;
+                  Education
+                &lt;/span&gt;
+              &lt;/div&gt;
+              &lt;button
+                aria-label=&quot;Edit post Understanding Recycling Symbols&quot;
+              &gt;
+                Edit
+              &lt;/button&gt;
+              &lt;button
+                aria-label=&quot;Delete post Understanding Recycling Symbols&quot;
+              &gt;
+                Delete
+              &lt;/button&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/section&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+    at Object.getElementError (/home/runner/work/CleanCity/CleanCity/node_modules/@testing-library/dom/dist/config.js:37:19)
+    at /home/runner/work/CleanCity/CleanCity/node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+    at /home/runner/work/CleanCity/CleanCity/node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+    at getByPlaceholderText (/home/runner/work/CleanCity/CleanCity/node_modules/@testing-library/dom/dist/query-helpers.js:95:19)
+    at Object.&lt;anonymous&gt; (/home/runner/work/CleanCity/CleanCity/tests/BlogAdmin.test.js:69:29)
+    at Promise.then.completed (/home/runner/work/CleanCity/CleanCity/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/home/runner/work/CleanCity/CleanCity/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/home/runner/work/CleanCity/CleanCity/node_modules/jest-circus/build/run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/home/runner/work/CleanCity/CleanCity/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/home/runner/work/CleanCity/CleanCity/node_modules/jest-circus/build/run.js:66:9)
+    at _runTestsForDescribeBlock (/home/runner/work/CleanCity/CleanCity/node_modules/jest-circus/build/run.js:60:9)
+    at run (/home/runner/work/CleanCity/CleanCity/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/runner/work/CleanCity/CleanCity/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/home/runner/work/CleanCity/CleanCity/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/home/runner/work/CleanCity/CleanCity/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/home/runner/work/CleanCity/CleanCity/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/home/runner/work/CleanCity/CleanCity/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/home/runner/work/CleanCity/CleanCity/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/home/runner/work/CleanCity/CleanCity/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/home/runner/work/CleanCity/CleanCity/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/home/runner/work/CleanCity/CleanCity/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/home/runner/work/CleanCity/CleanCity/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+    <testcase classname="BlogAdmin Component should delete a comment" name="BlogAdmin Component should delete a comment" time="0.01">
+      <failure>TestingLibraryElementError: Unable to find an element with the placeholder text of: Add a comment
+
+Ignored nodes: comments, script, style
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;div
+      class=&quot;blog-page-root&quot;
+    &gt;
+      &lt;div
+        aria-label=&quot;Blog Admin Panel&quot;
+        class=&quot;blog-card-main&quot;
+        role=&quot;main&quot;
+      &gt;
+        &lt;div
+          class=&quot;blog-brand&quot;
+        &gt;
+          🧹 
+          &lt;span&gt;
+            CleanCity
+          &lt;/span&gt;
+        &lt;/div&gt;
+        &lt;h2&gt;
+          Blog Admin Panel
+        &lt;/h2&gt;
+        &lt;form
+          aria-label=&quot;Add Blog Post&quot;
+          class=&quot;blog-admin-form&quot;
+        &gt;
+          &lt;input
+            placeholder=&quot;Title&quot;
+            required=&quot;&quot;
+            type=&quot;text&quot;
+            value=&quot;&quot;
+          /&gt;
+          &lt;div
+            class=&quot;blog-page-root&quot;
+          &gt;
+            &lt;div
+              aria-label=&quot;Blog Editor&quot;
+              class=&quot;blog-card-main&quot;
+              role=&quot;main&quot;
+            &gt;
+              &lt;div
+                class=&quot;blog-brand&quot;
+              &gt;
+                🧹 
+                &lt;span&gt;
+                  CleanCity
+                &lt;/span&gt;
+              &lt;/div&gt;
+              &lt;h2&gt;
+                New Blog Post
+              &lt;/h2&gt;
+              &lt;form
+                aria-label=&quot;Blog Editor Form&quot;
+                class=&quot;blog-admin-form&quot;
+              &gt;
+                &lt;input
+                  placeholder=&quot;Title&quot;
+                  required=&quot;&quot;
+                  type=&quot;text&quot;
+                  value=&quot;&quot;
+                /&gt;
+                &lt;input
+                  placeholder=&quot;Summary&quot;
+                  required=&quot;&quot;
+                  type=&quot;text&quot;
+                  value=&quot;&quot;
+                /&gt;
+                &lt;textarea
+                  placeholder=&quot;Content&quot;
+                  required=&quot;&quot;
+                /&gt;
+                &lt;input
+                  placeholder=&quot;Tags (comma separated)&quot;
+                  type=&quot;text&quot;
+                  value=&quot;&quot;
+                /&gt;
+                &lt;button
+                  class=&quot;blog-read-link&quot;
+                  type=&quot;submit&quot;
+                &gt;
+                  Publish
+                &lt;/button&gt;
+              &lt;/form&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;input
+            placeholder=&quot;Tags (comma separated)&quot;
+            type=&quot;text&quot;
+            value=&quot;&quot;
+          /&gt;
+          &lt;button
+            class=&quot;blog-read-link&quot;
+            type=&quot;submit&quot;
+          &gt;
+            Create
+             Post
+          &lt;/button&gt;
+          &lt;button
+            type=&quot;button&quot;
+          &gt;
+            Cancel
+          &lt;/button&gt;
+        &lt;/form&gt;
+        &lt;section
+          class=&quot;blog-list&quot;
+        &gt;
+          &lt;h3&gt;
+            All Blog Posts
+          &lt;/h3&gt;
+          &lt;div
+            class=&quot;blog-list-cards&quot;
+          &gt;
+            &lt;div
+              class=&quot;blog-card&quot;
+            &gt;
+              &lt;h4&gt;
+                5 Ways to Reduce Household Waste
+              &lt;/h4&gt;
+              &lt;div
+                class=&quot;blog-meta&quot;
+              &gt;
+                &lt;span&gt;
+                  EcoTeam
+                &lt;/span&gt;
+                 | 
+                &lt;span&gt;
+                  2024-06-01
+                &lt;/span&gt;
+              &lt;/div&gt;
+              &lt;div
+                class=&quot;blog-tags&quot;
+              &gt;
+                &lt;span&gt;
+                  Tips
+                &lt;/span&gt;
+                &lt;span&gt;
+                  Household
+                &lt;/span&gt;
+              &lt;/div&gt;
+              &lt;button
+                aria-label=&quot;Edit post 5 Ways to Reduce Household Waste&quot;
+              &gt;
+                Edit
+              &lt;/button&gt;
+              &lt;button
+                aria-label=&quot;Delete post 5 Ways to Reduce Household Waste&quot;
+              &gt;
+                Delete
+              &lt;/button&gt;
+            &lt;/div&gt;
+            &lt;div
+              class=&quot;blog-card&quot;
+            &gt;
+              &lt;h4&gt;
+                How CleanCity Improved My Neighborhood
+              &lt;/h4&gt;
+              &lt;div
+                class=&quot;blog-meta&quot;
+              &gt;
+                &lt;span&gt;
+                  Jane M.
+                &lt;/span&gt;
+                 | 
+                &lt;span&gt;
+                  2024-05-28
+                &lt;/span&gt;
+              &lt;/div&gt;
+              &lt;div
+                class=&quot;blog-tags&quot;
+              &gt;
+                &lt;span&gt;
+                  Community
+                &lt;/span&gt;
+                &lt;span&gt;
+                  Story
+                &lt;/span&gt;
+              &lt;/div&gt;
+              &lt;button
+                aria-label=&quot;Edit post How CleanCity Improved My Neighborhood&quot;
+              &gt;
+                Edit
+              &lt;/button&gt;
+              &lt;button
+                aria-label=&quot;Delete post How CleanCity Improved My Neighborhood&quot;
+              &gt;
+                Delete
+              &lt;/button&gt;
+            &lt;/div&gt;
+            &lt;div
+              class=&quot;blog-card&quot;
+            &gt;
+              &lt;h4&gt;
+                Understanding Recycling Symbols
+              &lt;/h4&gt;
+              &lt;div
+                class=&quot;blog-meta&quot;
+              &gt;
+                &lt;span&gt;
+                  Admin
+                &lt;/span&gt;
+                 | 
+                &lt;span&gt;
+                  2024-05-20
+                &lt;/span&gt;
+              &lt;/div&gt;
+              &lt;div
+                class=&quot;blog-tags&quot;
+              &gt;
+                &lt;span&gt;
+                  Recycling
+                &lt;/span&gt;
+                &lt;span&gt;
+                  Education
+                &lt;/span&gt;
+              &lt;/div&gt;
+              &lt;button
+                aria-label=&quot;Edit post Understanding Recycling Symbols&quot;
+              &gt;
+                Edit
+              &lt;/button&gt;
+              &lt;button
+                aria-label=&quot;Delete post Understanding Recycling Symbols&quot;
+              &gt;
+                Delete
+              &lt;/button&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/section&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+    at Object.getElementError (/home/runner/work/CleanCity/CleanCity/node_modules/@testing-library/dom/dist/config.js:37:19)
+    at /home/runner/work/CleanCity/CleanCity/node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+    at /home/runner/work/CleanCity/CleanCity/node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+    at getByPlaceholderText (/home/runner/work/CleanCity/CleanCity/node_modules/@testing-library/dom/dist/query-helpers.js:95:19)
+    at Object.&lt;anonymous&gt; (/home/runner/work/CleanCity/CleanCity/tests/BlogAdmin.test.js:81:29)
+    at Promise.then.completed (/home/runner/work/CleanCity/CleanCity/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/home/runner/work/CleanCity/CleanCity/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/home/runner/work/CleanCity/CleanCity/node_modules/jest-circus/build/run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/home/runner/work/CleanCity/CleanCity/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/home/runner/work/CleanCity/CleanCity/node_modules/jest-circus/build/run.js:66:9)
+    at _runTestsForDescribeBlock (/home/runner/work/CleanCity/CleanCity/node_modules/jest-circus/build/run.js:60:9)
+    at run (/home/runner/work/CleanCity/CleanCity/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/runner/work/CleanCity/CleanCity/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/home/runner/work/CleanCity/CleanCity/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/home/runner/work/CleanCity/CleanCity/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/home/runner/work/CleanCity/CleanCity/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/home/runner/work/CleanCity/CleanCity/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/home/runner/work/CleanCity/CleanCity/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/home/runner/work/CleanCity/CleanCity/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/home/runner/work/CleanCity/CleanCity/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/home/runner/work/CleanCity/CleanCity/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/home/runner/work/CleanCity/CleanCity/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+    <testcase classname="BlogAdmin Component should mark a comment as inappropriate" name="BlogAdmin Component should mark a comment as inappropriate" time="0.01">
+      <failure>TestingLibraryElementError: Unable to find an element with the placeholder text of: Add a comment
+
+Ignored nodes: comments, script, style
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;div
+      class=&quot;blog-page-root&quot;
+    &gt;
+      &lt;div
+        aria-label=&quot;Blog Admin Panel&quot;
+        class=&quot;blog-card-main&quot;
+        role=&quot;main&quot;
+      &gt;
+        &lt;div
+          class=&quot;blog-brand&quot;
+        &gt;
+          🧹 
+          &lt;span&gt;
+            CleanCity
+          &lt;/span&gt;
+        &lt;/div&gt;
+        &lt;h2&gt;
+          Blog Admin Panel
+        &lt;/h2&gt;
+        &lt;form
+          aria-label=&quot;Add Blog Post&quot;
+          class=&quot;blog-admin-form&quot;
+        &gt;
+          &lt;input
+            placeholder=&quot;Title&quot;
+            required=&quot;&quot;
+            type=&quot;text&quot;
+            value=&quot;&quot;
+          /&gt;
+          &lt;div
+            class=&quot;blog-page-root&quot;
+          &gt;
+            &lt;div
+              aria-label=&quot;Blog Editor&quot;
+              class=&quot;blog-card-main&quot;
+              role=&quot;main&quot;
+            &gt;
+              &lt;div
+                class=&quot;blog-brand&quot;
+              &gt;
+                🧹 
+                &lt;span&gt;
+                  CleanCity
+                &lt;/span&gt;
+              &lt;/div&gt;
+              &lt;h2&gt;
+                New Blog Post
+              &lt;/h2&gt;
+              &lt;form
+                aria-label=&quot;Blog Editor Form&quot;
+                class=&quot;blog-admin-form&quot;
+              &gt;
+                &lt;input
+                  placeholder=&quot;Title&quot;
+                  required=&quot;&quot;
+                  type=&quot;text&quot;
+                  value=&quot;&quot;
+                /&gt;
+                &lt;input
+                  placeholder=&quot;Summary&quot;
+                  required=&quot;&quot;
+                  type=&quot;text&quot;
+                  value=&quot;&quot;
+                /&gt;
+                &lt;textarea
+                  placeholder=&quot;Content&quot;
+                  required=&quot;&quot;
+                /&gt;
+                &lt;input
+                  placeholder=&quot;Tags (comma separated)&quot;
+                  type=&quot;text&quot;
+                  value=&quot;&quot;
+                /&gt;
+                &lt;button
+                  class=&quot;blog-read-link&quot;
+                  type=&quot;submit&quot;
+                &gt;
+                  Publish
+                &lt;/button&gt;
+              &lt;/form&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;input
+            placeholder=&quot;Tags (comma separated)&quot;
+            type=&quot;text&quot;
+            value=&quot;&quot;
+          /&gt;
+          &lt;button
+            class=&quot;blog-read-link&quot;
+            type=&quot;submit&quot;
+          &gt;
+            Create
+             Post
+          &lt;/button&gt;
+          &lt;button
+            type=&quot;button&quot;
+          &gt;
+            Cancel
+          &lt;/button&gt;
+        &lt;/form&gt;
+        &lt;section
+          class=&quot;blog-list&quot;
+        &gt;
+          &lt;h3&gt;
+            All Blog Posts
+          &lt;/h3&gt;
+          &lt;div
+            class=&quot;blog-list-cards&quot;
+          &gt;
+            &lt;div
+              class=&quot;blog-card&quot;
+            &gt;
+              &lt;h4&gt;
+                5 Ways to Reduce Household Waste
+              &lt;/h4&gt;
+              &lt;div
+                class=&quot;blog-meta&quot;
+              &gt;
+                &lt;span&gt;
+                  EcoTeam
+                &lt;/span&gt;
+                 | 
+                &lt;span&gt;
+                  2024-06-01
+                &lt;/span&gt;
+              &lt;/div&gt;
+              &lt;div
+                class=&quot;blog-tags&quot;
+              &gt;
+                &lt;span&gt;
+                  Tips
+                &lt;/span&gt;
+                &lt;span&gt;
+                  Household
+                &lt;/span&gt;
+              &lt;/div&gt;
+              &lt;button
+                aria-label=&quot;Edit post 5 Ways to Reduce Household Waste&quot;
+              &gt;
+                Edit
+              &lt;/button&gt;
+              &lt;button
+                aria-label=&quot;Delete post 5 Ways to Reduce Household Waste&quot;
+              &gt;
+                Delete
+              &lt;/button&gt;
+            &lt;/div&gt;
+            &lt;div
+              class=&quot;blog-card&quot;
+            &gt;
+              &lt;h4&gt;
+                How CleanCity Improved My Neighborhood
+              &lt;/h4&gt;
+              &lt;div
+                class=&quot;blog-meta&quot;
+              &gt;
+                &lt;span&gt;
+                  Jane M.
+                &lt;/span&gt;
+                 | 
+                &lt;span&gt;
+                  2024-05-28
+                &lt;/span&gt;
+              &lt;/div&gt;
+              &lt;div
+                class=&quot;blog-tags&quot;
+              &gt;
+                &lt;span&gt;
+                  Community
+                &lt;/span&gt;
+                &lt;span&gt;
+                  Story
+                &lt;/span&gt;
+              &lt;/div&gt;
+              &lt;button
+                aria-label=&quot;Edit post How CleanCity Improved My Neighborhood&quot;
+              &gt;
+                Edit
+              &lt;/button&gt;
+              &lt;button
+                aria-label=&quot;Delete post How CleanCity Improved My Neighborhood&quot;
+              &gt;
+                Delete
+              &lt;/button&gt;
+            &lt;/div&gt;
+            &lt;div
+              class=&quot;blog-card&quot;
+            &gt;
+              &lt;h4&gt;
+                Understanding Recycling Symbols
+              &lt;/h4&gt;
+              &lt;div
+                class=&quot;blog-meta&quot;
+              &gt;
+                &lt;span&gt;
+                  Admin
+                &lt;/span&gt;
+                 | 
+                &lt;span&gt;
+                  2024-05-20
+                &lt;/span&gt;
+              &lt;/div&gt;
+              &lt;div
+                class=&quot;blog-tags&quot;
+              &gt;
+                &lt;span&gt;
+                  Recycling
+                &lt;/span&gt;
+                &lt;span&gt;
+                  Education
+                &lt;/span&gt;
+              &lt;/div&gt;
+              &lt;button
+                aria-label=&quot;Edit post Understanding Recycling Symbols&quot;
+              &gt;
+                Edit
+              &lt;/button&gt;
+              &lt;button
+                aria-label=&quot;Delete post Understanding Recycling Symbols&quot;
+              &gt;
+                Delete
+              &lt;/button&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/section&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+    at Object.getElementError (/home/runner/work/CleanCity/CleanCity/node_modules/@testing-library/dom/dist/config.js:37:19)
+    at /home/runner/work/CleanCity/CleanCity/node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+    at /home/runner/work/CleanCity/CleanCity/node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+    at getByPlaceholderText (/home/runner/work/CleanCity/CleanCity/node_modules/@testing-library/dom/dist/query-helpers.js:95:19)
+    at Object.&lt;anonymous&gt; (/home/runner/work/CleanCity/CleanCity/tests/BlogAdmin.test.js:94:29)
+    at Promise.then.completed (/home/runner/work/CleanCity/CleanCity/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/home/runner/work/CleanCity/CleanCity/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/home/runner/work/CleanCity/CleanCity/node_modules/jest-circus/build/run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/home/runner/work/CleanCity/CleanCity/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/home/runner/work/CleanCity/CleanCity/node_modules/jest-circus/build/run.js:66:9)
+    at _runTestsForDescribeBlock (/home/runner/work/CleanCity/CleanCity/node_modules/jest-circus/build/run.js:60:9)
+    at run (/home/runner/work/CleanCity/CleanCity/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/runner/work/CleanCity/CleanCity/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/home/runner/work/CleanCity/CleanCity/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/home/runner/work/CleanCity/CleanCity/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/home/runner/work/CleanCity/CleanCity/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/home/runner/work/CleanCity/CleanCity/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/home/runner/work/CleanCity/CleanCity/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/home/runner/work/CleanCity/CleanCity/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/home/runner/work/CleanCity/CleanCity/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/home/runner/work/CleanCity/CleanCity/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/home/runner/work/CleanCity/CleanCity/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
