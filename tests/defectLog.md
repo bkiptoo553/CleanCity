@@ -133,3 +133,6 @@ This document outlines the currently identified defects in the `BlogAdmin` compo
     * the profile sections remain empty.
 * **Fix**:
     * prohibit empty profiles only change of profiles
+
+# Security Vulnerabilities - Clean City app
+https://github.com/bkiptoo553/CleanCity/security/code-scanning
